@@ -9,7 +9,7 @@ const toDoSlice = createSlice({
     {id: 4, title: "Add and Configure Redux", completed: true},
     {id: 5, title: "Add Styling", completed: true},
     {id: 6, title: "Add Hosting", completed: true},
-    {id: 7, title: "Meet hiring manager", completed: false},
+    {id: 7, title: "Meet Hiring Manager", completed: false},
   ],
   reducers: {
     addToDo: (state, action) => {
